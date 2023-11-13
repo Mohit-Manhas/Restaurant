@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Contact Us - MOHIT DA DHABA</title>
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  <script src="validation.js"></script>
+</head>
+
+<body>
+  <header>
+    <img src="logo.png" alt="Restaurant Logo" class="logo">
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="menu.html">View Menu</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Contact Us</h1>
+    <p>Send us a message and we’ll get back to you as soon as possible. You can also reach us by phone at (+91)
+      7978677390. Looking forward to hearing from you!</p>
+    <form onsubmit="return validateForm()">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+
+    <div class="timing">
+      <h2>Restaurant Timing</h2>
+      <table class="center-table">
+        <tr>
+          <th>Day</th>
+          <th>Opening Time</th>
+          <th>Closing Time</th>
+        </tr>
+        <tr>
+          <td>Monday</td>
+          <td>9:00 AM</td>
+          <td>10:00 PM</td>
+        </tr>
+        <tr>
+          <td>Tuesday</td>
+          <td>9:00 AM</td>
+          <td>10:00 PM</td>
+        </tr>
+        <tr>
+          <td>Wednesday</td>
+          <td>9:00 AM</td>
+          <td>10:00 PM</td>
+        </tr>
+        <tr>
+          <td>Thursday</td>
+          <td>9:00 AM</td>
+          <td>10:00 PM</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>9:00 AM</td>
+          <td>11:00 PM</td>
+        </tr>
+        <tr>
+          <td>Saturday</td>
+          <td>9:00 AM</td>
+          <td>11:00 PM</td>
+        </tr>
+        <tr>
+          <td>Sunday</td>
+          <td>9:00 AM</td>
+          <td>10:00 PM</td>
+        </tr>
+      </table>
+    </div>
+
+  </main>
+</body>
+
+</html>
